@@ -9,7 +9,7 @@ import Projects from "../pages/Projects";
 const Main = () => {
   return (
     <main>
-      <Route exact path="/">
+      <Route exact path="/portfolio">
         <Home />
       </Route>
       <Route exact path="/about">
