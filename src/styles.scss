@@ -1,0 +1,52 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    .links {
+        text-decoration: none;
+        margin-top: 50px;
+    }
+    .logo {
+        width: 300px;
+        height: 200px;
+        object-fit: contain;
+
+    }
+}
+
+.home {
+    text-align: center;
+    padding-top: 100px;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+.About {
+    text-align: center;
+    padding-top: 100px;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+.Contact {
+    text-align: center;
+    padding-top: 100px;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.project {
+    text-align: center;
+    border: solid black 2px;
+    border-radius: 2px;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    max-width: 300px;
+    min-height: 500px;
+}

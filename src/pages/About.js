@@ -1,5 +1,6 @@
 
 const About = () => {
+    return (
     <div className='About'>
         <h1 id='a-header'>About Me</h1>
         <p>
@@ -11,4 +12,6 @@ const About = () => {
             a conversation or are interested in my skillset feel free to contact me!
         </p>
     </div>
+    )
 }
+export default About;

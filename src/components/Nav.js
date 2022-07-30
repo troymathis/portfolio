@@ -5,16 +5,16 @@ const Header = () => {
         <nav className='nav'>
             <Link to ='/'>
                 <div>
-                    {/* image of logo */}
+                    <img src="https://i.imgur.com/aRtThMr.png" className='logo'/>
                 </div>
             </Link>
-            <Link to= '/projects'>
+            <Link to= '/projects' className='links'>
                 <div>PROJECTS</div>
             </Link>
-            <Link to ='/about'>
+            <Link to ='/about' className='links'>
                 <div>ABOUT</div>
             </Link>
-            <Link to='/contact'>
+            <Link to='/contact' className='links'>
                 <div>CONTACT</div>
             </Link>
         </nav>
