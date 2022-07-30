@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     return (
         <nav className='nav'>
-            <Link to ='/'>
+            <Link to ='/portfolio'>
                 <div>
                     <img src="https://i.imgur.com/aRtThMr.png" className='logo'/>
                 </div>
