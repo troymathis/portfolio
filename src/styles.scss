@@ -1,3 +1,7 @@
+* {
+    font-family: 'Roboto Slab', serif
+}
+
 .nav {
     display: flex;
     justify-content: space-around;
@@ -14,28 +18,32 @@
     }
 }
 
-.home {
+#home {
+    text-align: center;
+    padding-top: 100px;
+    margin-right: 25%;
+    margin-left: 25%;
+    .intro {
+        text-align: left;
+    }
+
+}
+
+#about {
     text-align: center;
     padding-top: 100px;
     margin-right: 25%;
     margin-left: 25%;
 }
 
-.About {
+#contact {
     text-align: center;
     padding-top: 100px;
     margin-right: 25%;
     margin-left: 25%;
 }
 
-.Contact {
-    text-align: center;
-    padding-top: 100px;
-    margin-right: 25%;
-    margin-left: 25%;
-}
-
-.projects {
+#projects {
     display: flex;
     justify-content: center;
     gap: 5px;
@@ -49,4 +57,14 @@
     flex-direction: column;
     max-width: 300px;
     min-height: 500px;
+}
+
+.fade-enter {
+    opacity: 0;
+    z-index: 1;
+}
+
+.fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 250ms ease-in;
 }

@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 const Projects = () => {
     return (
-        <div className='projects'>
+        <div id='projects'>
             <div className= 'project'>
                 <h4>Meleauxdy</h4>
                 <p>
@@ -11,13 +11,16 @@ const Projects = () => {
                     tracks along with the release date. Instantly find any artist 
                     within the iTunes library based off their name/primary genre
                 </p>
+                <a href=""></a>
             </div>
             <div className= 'project'>
                 <h4>Fantasy Silk</h4>
                 <p>
                 a full CRUD application, user guided hub for everything fantasy 
-                football with player and team creation and updating.
+                football with player and team creation and updating. (Also deployed to
+                Microsoft Azure)
                 </p>
+                <a href=""></a>
             </div>
             <div className= 'project'>
                 <h4>General Store</h4>
@@ -27,6 +30,7 @@ const Projects = () => {
                 eeded. With Firebase logins and website account creation 
                 (admin capabilities to perform CRUD on products).
                 </p>
+                <a href=""></a>
             </div>
             <div className= 'project'>
                 <h4>Communal WebRoom</h4>
@@ -35,6 +39,7 @@ const Projects = () => {
                 shared interests, allowing them to find connections outside the 
                 platform
                 </p>
+                <a href=""></a>
             </div>
         </div>
     )
