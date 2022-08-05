@@ -1,6 +1,28 @@
-* {
-    font-family: 'Roboto Slab', serif
+.App {
+    background-color: aqua;
+    display: flex;
+    .prof {
+        width: 50%;
+        background-image: url('https://i.imgur.com/Kk5pDWj.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: 0 0;
+        .logo {
+            width: 500px;
+            position: fixed;
+        }
+    }
+    .play {
+        width:50%;
+        .navbar {
+            background-color: antiquewhite;
+            position: fixed;
+            width: 50%;
+            border: solid black;
+        }
+    }
 }
+
 
 .nav {
     display: flex;
@@ -9,16 +31,17 @@
     .links {
         text-decoration: none;
         margin-top: 50px;
-    }
-    .logo {
-        width: 300px;
-        height: 200px;
-        object-fit: contain;
-
+        :hover {
+            cursor: pointer
+        }
     }
 }
 
-#home {
+.section {
+    min-height: 800px;
+}
+
+.home {
     text-align: center;
     padding-top: 100px;
     margin-right: 25%;
@@ -26,24 +49,30 @@
     .intro {
         text-align: left;
     }
-
+    #name {
+        font-size: 100px;
+        margin-top: -20px;
+        margin-bottom: -20px;
+        color: #1c2841;
+        font-family: 'Roboto Slab', serif;
+    }
 }
 
-#about {
+.about {
     text-align: center;
     padding-top: 100px;
     margin-right: 25%;
     margin-left: 25%;
 }
 
-#contact {
+.contact {
     text-align: center;
     padding-top: 100px;
     margin-right: 25%;
     margin-left: 25%;
 }
 
-#projects {
+.projects {
     display: flex;
     justify-content: center;
     gap: 5px;
@@ -61,10 +90,10 @@
 
 .fade-enter {
     opacity: 0;
-    z-index: 1;
 }
 
 .fade-enter.fade-enter-active {
     opacity: 1;
     transition: opacity 250ms ease-in;
 }
+

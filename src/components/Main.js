@@ -8,32 +8,24 @@ import Contact from "../pages/Contact";
 import Projects from "../pages/Projects";
 
 const Main = () => {
-    const location = useLocation()
+  const location = useLocation();
 
   return (
     <main>
-      <TransitionGroup>
-        <CSSTransition
-        timeout={250}
-        classNames='fade'
-        key={location.key}
-        >
-          <Switch location={location}>
-            <Route exact path="/portfolio">
-              <Home />
-            </Route>
-            <Route exact path="/about">
-              <About />
-            </Route>
-            <Route exact path="/contact">
-              <Contact />
-            </Route>
-            <Route exact path="/projects">
-              <Projects />
-            </Route>
-          </Switch>
-        </CSSTransition>
-      </TransitionGroup>
+        <div className="content">
+          <section className="section" id="portfolio">
+            <Home />
+          </section>
+          <section className="section" id="about">
+            <About />
+          </section>
+          <section className="section" id="projects">
+            <Projects />
+          </section>
+          <section className="section" id="contact">
+            <Contact />
+          </section>
+        </div>
     </main>
   );
 };

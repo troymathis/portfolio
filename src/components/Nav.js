@@ -1,20 +1,27 @@
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
 const Header = () => {
     return (
         <nav className='nav'>
-            <Link to ='/portfolio'>
-                <div>
-                    <img src="https://i.imgur.com/aRtThMr.png" className='logo'/>
-                </div>
-            </Link>
-            <Link to= '/projects' className='links'>
+            <Link to= 'projects' className='links'
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}>
                 <div>PROJECTS</div>
             </Link>
-            <Link to ='/about' className='links'>
+            <Link to ='about' className='links'
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}>
                 <div>ABOUT</div>
             </Link>
-            <Link to='/contact' className='links'>
+            <Link to='contact' className='links'
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}>
                 <div>CONTACT</div>
             </Link>
         </nav>

@@ -1,7 +1,7 @@
 
 const About = () => {
     return (
-    <div id='about'>
+    <div className='about'>
         <h1 id='a-header'>About Me</h1>
         <p>
             Hi, I'm a Full-Stack Software Engineer/ Web Developer with a knack for writing

@@ -1,9 +1,9 @@
 const Home = () => {
   return (
-    <div id="home">
+    <div className="home">
       <div className="intro">
         <h3>Hi, my name is..</h3>
-        <h1>Troy Mathis</h1>
+        <h1 id='name'>Troy Mathis</h1>
       </div>
       <ul>
         <h2>
