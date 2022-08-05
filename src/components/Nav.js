@@ -6,7 +6,7 @@ const Header = () => {
             <Link to= 'projects' className='links'
             spy={true}
             smooth={true}
-            offset={-70}
+            offset={-120}
             duration={500}>
                 <div>PROJECTS</div>
             </Link>

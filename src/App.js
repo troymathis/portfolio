@@ -15,7 +15,7 @@ function App() {
           offset={-70}
           duration={500}
         >
-            <img src="https://i.imgur.com/aRtThMr.png" className="logo" />
+            <img src="https://i.imgur.com/E7UHhml.png" className="logo" />
         </Link>
       </div>
       <div className="play">

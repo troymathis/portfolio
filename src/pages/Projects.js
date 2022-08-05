@@ -2,6 +2,9 @@ import { Link } from 'react-router-dom';
 
 const Projects = () => {
     return (
+        <div>
+            <h2 className='working'>I'm working on...</h2>
+            <hr />
         <div className='projects'>
             <div className= 'project'>
                 <h4>Meleauxdy</h4>
@@ -41,6 +44,7 @@ const Projects = () => {
                 </p>
                 <a href=""></a>
             </div>
+        </div>
         </div>
     )
 }
