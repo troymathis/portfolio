@@ -5,7 +5,7 @@ const Home = () => {
         <h3>Hey y'all! my name is..</h3>
         <h1 id='name'>Troy Mathis</h1>
       </div>
-      <ul>
+      <ul className="f-list">
         <h2>
           <li>
             I'm a Software Engineer / Web Developer based out of Houston, TX!
