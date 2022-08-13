@@ -3,6 +3,7 @@ const About = () => {
     return (
     <div className='about'>
         <h1 id='a-header'>About Me</h1>
+        <hr />
         <p>
             Hi, I'm a Full-Stack Software Engineer/ Web Developer with a knack for writing
             beautiful code while implementing creative solutions. My skillset is 

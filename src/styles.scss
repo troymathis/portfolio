@@ -29,6 +29,15 @@
     100% { opacity: 1; }
 }
 
+@keyframes slideIn {
+    0% {
+        transform: translateX(-900px);
+      }
+      100% {
+        transform: translateX(0);
+      }
+}
+
 html {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #1c2841 95%), linear-gradient(to bottom, rgba(0, 0, 0, 0) 60%, #1c2841),
     url('https://i.imgur.com/Kk5pDWj.jpg');
@@ -41,7 +50,7 @@ html {
 .App {
     display: flex;
     font-family: 'Titillium Web', sans-serif;
-    animation: fadeIn 1s 1;
+    animation: slideIn 1.5s ;
     .prof {
         width: 40%;
         .logo {
@@ -83,6 +92,11 @@ html {
     }
     a:hover {
         top: -8px;
+    }
+    P {
+        opacity: 45%;
+        color: white;
+        margin-left: 20px;
     }
     #res {
         display: flex;
@@ -136,11 +150,13 @@ html {
         margin-bottom: -20px;
         color: white;
         font-family: 'Roboto Slab', serif;
+        animation: slideIn 2s;
     }
 }
 
 .f-list {
     list-style: none;
+    animation: slideIn 3s;
 }
 
 .about {
@@ -150,21 +166,62 @@ html {
     margin-left: 25%;
 }
 
+.lstack {
+    .lstack-desc{
+        text-align: center;
+        padding-top: 100px;
+        margin-right: 25%;
+        margin-left: 25%;
+    }
+    
+}
+
 .contact {
     text-align: center;
     padding-top: 100px;
     margin-right: 25%;
     margin-left: 25%;
+    margin-top: 25%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     form {
-        
         textarea {
             height: 200px;
             width: 600px;
             display: flex;
             margin-top: 20px;
+            background-image: linear-gradient(to right, #1c2841 , gray);
+            font-family: 'Titillium Web', sans-serif;
+            outline: none;
+            color: white;
+            margin-left: -75px;
+        }
+        textarea:focus {
+            outline: none;
+        }
+        .fields {
+            display: flex;
+            height: 30px;
+            gap: 5px;
+            input {
+                background-color: #1c2841;
+                border-width: 0 0 2px;
+                border-color: white;
+                color: white;
+            }
+            input:focus {
+                outline: none !important;
+            }
+        }
+        button {
+            margin-top: 20px;
+            border: 1px solid black;
+            border-radius: 20%;
+        }
+        button:hover {
+            cursor: pointer;
+            animation: effect 0.4s;
         }
     }
 }
@@ -237,6 +294,7 @@ html {
 }
 .plinks:hover {
     animation: effect 0.4s;
+    opacity: 50%;
 }
 .p-tech {
     position: relative;
@@ -250,5 +308,101 @@ html {
     gap: 10px;
     img {
         width: 75px;
+    }
+}
+
+.lstack-logos {
+    position: relative;
+    margin-top: 25px;
+    max-height: 500px;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    #heroku {
+        width: 70px;
+    }
+    img {
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    * {
+        font-size: small;
+    }
+    #name {
+        margin-left: -10px;
+    }
+    html {
+        background: linear-gradient(to bottom, #1c2841, rgba(0,0,0,0));
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: -120px 0;
+        background-color: #1c2841;
+        width: 375px;
+    }
+    .App {
+        display: flex;
+        font-family: 'Titillium Web', sans-serif;
+        animation: slideIn 1.5s;
+        width: 375px;
+        .prof {
+            width: 0%;
+            .logo {
+                width: 70%;
+                position: fixed;
+                cursor: pointer;
+            }
+        }
+        .play {
+            margin-top: 70px;
+            background-color: rgba(0,0,0,0);
+            width: 100%;
+            .navbar {
+                position: fixed;
+                margin-left: 1000px;
+                margin-top: 1500px;
+                background: none;
+            }
+        }
+    }
+
+    .home {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .intro {
+        margin-bottom: 20%;
+    }
+    .about {
+        margin-right: 10%;
+        margin-left: 10%;
+        padding: 0 0 0 0;
+        margin-bottom: -20%;
+    }
+    .lstack {
+        margin-top: -60%;
+    }
+    #projects {
+        margin-top: 300px;
+    }
+    .nav {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+    }
+    .hub {
+        position: fixed;
+        margin-top: 200%;
+        margin-left: -20px;
+        background: linear-gradient(to top, #1c2841 50%, rgba(0,0,0,0));
+        height: 100px;
+        p {
+            font-size: small;
+        }
     }
 }
