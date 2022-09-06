@@ -25,6 +25,7 @@ const Home = () => {
       </ul>
       <div className="thanks">
         <h4>Thanks for taking a look!</h4>
+        <p className='footer'>Built & Designed by Troy Mathis</p>
       </div>
     </div>
   );

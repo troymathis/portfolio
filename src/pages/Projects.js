@@ -7,6 +7,45 @@ const Projects = () => {
       <hr />
       <div className="projects">
         <div className="project">
+          <h3 className="p-name">ATMOS</h3>
+          <p className="p-desc">
+            With a team of likeminded engineers and UX/UI Designers, tracking air-quality in any notable city in the US, ATMOS is a AQI
+            (air quality index) tracker that provides the user with the current
+            index using IQAir's API and tips/reccomendations on sustainability.
+            Fully functional caching back-end along with a user-friendly,
+            responsive front-end.
+          </p>
+          <div className="p-tech">
+            <img src="https://logos-download.com/wp-content/uploads/2016/09/React_logo_wordmark.png" />
+            <img src="https://i0.wp.com/blog.canadianwebhosting.com/wp-content/uploads/2018/04/javascript-logo.png?ssl=1" />
+            <img src="https://i.imgur.com/BiktJom.png" />
+            <img src="https://ivazz.com/wp-content/uploads/2021/05/sass-1.png" />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1280px-Node.js_logo.svg.png" />
+            <img src="https://www.seekpng.com/png/full/383-3838960_mongodb-png.png" />
+          </div>
+          <div className="plinks-cont">
+            <h3 id="goto">Go to...</h3>
+            <a
+              href="https://johndwatt.github.io/ATMOS/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="plinks"
+            >
+              Site
+            </a>
+            <a
+              href="https://github.com/johndwatt/ATMOS"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="https://i.imgur.com/MM95rZT.png" className="imgs" />
+            </a>
+          </div>
+          <div className="p-mac">
+            <img src="https://i.imgur.com/7fl1AoK.png" />
+          </div>
+        </div>
+        <div className="project">
           <h3 className="p-name">Meleauxdy</h3>
           <p className="p-desc">
             A music search engine that can provide information on any artist by
@@ -21,7 +60,7 @@ const Projects = () => {
             <img src="https://i.imgur.com/bmg5bBz.png" />
           </div>
           <div className="plinks-cont">
-            <h3 id='goto'>Go to...</h3>
+            <h3 id="goto">Go to...</h3>
             <a
               href="https://meleauxdy.netlify.app/"
               target="_blank"
@@ -128,6 +167,7 @@ const Projects = () => {
             platform.
           </p>
           <div className="p-tech">
+            <img src="https://i.imgur.com/wx5hZbG.png" />
             <img src="https://i.imgur.com/OMVTfk9.png" />
             <img src="https://webme.ie/wp-content/uploads/2019/08/How-to-run-a-python-django-app-in-docker.png" />
             <img src="https://i.imgur.com/bmg5bBz.png" />

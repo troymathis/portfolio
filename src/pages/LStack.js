@@ -5,7 +5,7 @@ const LStack = () => {
             <h1>Languages and technologies I'm fluent in:</h1>
             <hr />
             <p>JavaScript, Python, jQuery, HTML, CSS, React, Node.js, Express, MongoDB/Mongoose, 
-                Sass, Firebase, Django, Microsoft Azure, Heroku, Netlify, SQL
+                Sass, Firebase, Django, Microsoft Azure, Heroku, Netlify, SQL, AWS
             </p>
             </div>
             <div className="lstack-logos">
@@ -25,6 +25,7 @@ const LStack = () => {
             <img src="https://iconape.com/wp-content/files/xn/371066/svg/371066.svg" id='heroku'/>
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Netlify_logo.svg/2560px-Netlify_logo.svg.png" />
             <img src="https://i.imgur.com/ciMaIah.png" />
+            <img src="https://i.imgur.com/wx5hZbG.png" />
             </div>
         </div>
     )
