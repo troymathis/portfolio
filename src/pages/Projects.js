@@ -100,7 +100,7 @@ const Projects = () => {
           <div className="plinks-cont">
             <h3>Go to...</h3>
             <a
-              href="https://fantasy-silk.azurewebsites.net/"
+              href="https://fantasy-silk.herokuapp.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="plinks"
