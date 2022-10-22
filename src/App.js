@@ -22,7 +22,7 @@ function App() {
           <a href="https://github.com/troymathis"><img src="https://i.imgur.com/MM95rZT.png" /></a>
           <a href="https://www.linkedin.com/in/troy-mathis-dev/"><img src="https://iconsplace.com/wp-content/uploads/_icons/ffffff/256/png/linkedin-icon-18-256.png" /></a>
           <a id='res' href={myResume} download><div id='res-text'>Resume</div><img src="https://i.imgur.com/6pHPScy.png" /></a>
-          <p>troy.mathis00@gmail.com</p>
+          <p>troymathisdev@gmail.com</p>
         </div>
       </div>
       <div className="play">

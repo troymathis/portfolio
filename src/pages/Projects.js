@@ -94,7 +94,7 @@ const Projects = () => {
             <img src="https://i.imgur.com/BiktJom.png" />
             <img src="https://i0.wp.com/blog.canadianwebhosting.com/wp-content/uploads/2018/04/javascript-logo.png?ssl=1" />
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1280px-Node.js_logo.svg.png" />
-            <img src="https://iconape.com/wp-content/files/xn/371066/svg/371066.svg" />
+            <img src="https://i.imgur.com/d1JG34o.png" />
             <img src="https://i.imgur.com/bmg5bBz.png" />
           </div>
           <div className="plinks-cont">

@@ -22,7 +22,7 @@ const LStack = () => {
             <img src="https://firebase.google.com/static/downloads/brand-guidelines/PNG/logo-standard.png" />
             <img src="https://webme.ie/wp-content/uploads/2019/08/How-to-run-a-python-django-app-in-docker.png" />
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Microsoft_Azure_Logo.svg/1024px-Microsoft_Azure_Logo.svg.png" />
-            <img src="https://iconape.com/wp-content/files/xn/371066/svg/371066.svg" id='heroku'/>
+            <img src="https://i.imgur.com/d1JG34o.png" id='heroku'/>
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Netlify_logo.svg/2560px-Netlify_logo.svg.png" />
             <img src="https://i.imgur.com/ciMaIah.png" />
             <img src="https://i.imgur.com/wx5hZbG.png" />

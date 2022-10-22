@@ -46,6 +46,11 @@ html {
     background-attachment: fixed;
     background-position: -120px 0;
     background-color: #1c2841;
+    overflow-x: hidden;
+}
+body {
+    overflow-x: hidden;
+    position: relative;
 }
 .App {
     display: flex;
@@ -67,6 +72,7 @@ html {
             background: radial-gradient(circle at center, #2c3549, rgba(0,0,0,0));
             position: fixed;
             width: 55%;
+            z-index: 7;
             border-radius: 30px;
             margin-top: 40px;
             padding: 20px;
@@ -78,7 +84,7 @@ html {
     display: flex;
     justify-content: space-around;
     position: fixed;
-    margin-top: 45%;
+    bottom: 10px;
     margin-left: 20px;
     img {
         width: 50px;
@@ -197,7 +203,7 @@ html {
     form {
         textarea {
             height: 200px;
-            width: 600px;
+            width: 150%;
             display: flex;
             margin-top: 20px;
             background-image: linear-gradient(to right, #1c2841 , gray);
@@ -213,6 +219,8 @@ html {
             display: flex;
             height: 30px;
             gap: 5px;
+            flex-wrap: wrap;
+            padding: 5px;
             input {
                 background-color: #1c2841;
                 border-width: 0 0 2px;
@@ -339,9 +347,11 @@ html {
     }
 }
 
+//! MOBILE RESPONSE --------------------------------------------------------------
+
 @media only screen and (max-width:600px) {
     * {
-        font-size: small;
+        font-size: small; 
     }
     #name {
         margin-left: -10px;
@@ -353,7 +363,12 @@ html {
         background-attachment: fixed;
         background-position: -120px 0;
         background-color: #1c2841;
-        width: 375px;
+        width: 600px;
+        overflow-x: hidden;
+    }
+    body {
+        overflow-x: hidden;
+        position: relative
     }
     .App {
         display: flex;
@@ -363,8 +378,9 @@ html {
         .prof {
             width: 0%;
             .logo {
-                width: 70%;
+                width: 40%;
                 position: fixed;
+                
                 cursor: pointer;
             }
         }
@@ -400,6 +416,9 @@ html {
     #projects {
         margin-top: 300px;
     }
+    .project {
+        height: 700px;
+    }
     .nav {
         position: fixed;
         display: flex;
@@ -411,8 +430,215 @@ html {
         margin-left: -20px;
         background: linear-gradient(to top, #1c2841 50%, rgba(0,0,0,0));
         height: 100px;
+        flex-wrap: wrap;
+        z-index: 100;
+        margin-bottom: -10%;
         p {
             font-size: small;
+        }
+        img {
+            width: 40px;
+        }
+    }
+    .contact {
+        text-align: center;
+        padding-top: 100px;
+        margin-right: 25%;
+        margin-left: 25%;
+        margin-top: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        form {
+            margin-left: 30px;
+            textarea {
+                height: 200px;
+                width: 150%;
+                display: flex;
+                margin-top: 40px;
+                background-image: linear-gradient(to right, #1c2841 , gray);
+                font-family: 'Titillium Web', sans-serif;
+                outline: none;
+                color: white;
+                margin-left: -65px;
+            }
+            textarea:focus {
+                outline: none;
+            }
+            .fields {
+                display: flex;
+                height: 30px;
+                gap: 5px;
+                flex-wrap: wrap;
+                padding: 5px;
+                input {
+                    background-color: #1c2841;
+                    border-width: 0 0 2px;
+                    border-color: white;
+                    color: white;
+                }
+                input:focus {
+                    outline: none !important;
+                }
+            }
+            button {
+                margin-top: 20px;
+                border: solid #091020 1px;
+                border-radius: 10px;
+                padding: 5px;
+                margin-right: 20px;
+            }
+            button:hover {
+                cursor: pointer;
+                animation: effect 0.4s;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:400px) {
+    * {
+        font-size: small; 
+    }
+    #name {
+        margin-left: -10px;
+    }
+    html {
+        background: linear-gradient(to bottom, #1c2841, rgba(0,0,0,0));
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: -120px 0;
+        background-color: #1c2841;
+        width: 600px;
+        overflow-x: hidden;
+    }
+    body {
+        overflow-x: hidden;
+        position: relative
+    }
+    .App {
+        display: flex;
+        font-family: 'Titillium Web', sans-serif;
+        animation: slideIn 1.5s;
+        width: 375px;
+        .prof {
+            width: 0%;
+            .logo {
+                width: 40%;
+                position: fixed;
+                
+                cursor: pointer;
+            }
+        }
+        .play {
+            margin-top: 70px;
+            background-color: rgba(0,0,0,0);
+            width: 100%;
+            .navbar {
+                position: fixed;
+                margin-left: 1000px;
+                margin-top: 1500px;
+                background: none;
+            }
+        }
+    }
+
+    .home {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .intro {
+        margin-bottom: 20%;
+    }
+    .about {
+        margin-right: 10%;
+        margin-left: 10%;
+        padding: 0 0 0 0;
+        margin-bottom: -20%;
+    }
+    .lstack {
+        margin-top: -60%;
+    }
+    #projects {
+        margin-top: 300px;
+    }
+    .project {
+        height: 700px;
+    }
+    .nav {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+    }
+    .hub {
+        position: fixed;
+        margin-top: 200%;
+        margin-left: -20px;
+        background: linear-gradient(to top, #1c2841 50%, rgba(0,0,0,0));
+        height: 100px;
+        flex-wrap: wrap;
+        z-index: 100;
+        margin-bottom: -10%;
+        p {
+            font-size: small;
+        }
+        img {
+            width: 40px;
+        }
+    }
+    .contact {
+        text-align: center;
+        padding-top: 100px;
+        margin-right: 25%;
+        margin-left: 25%;
+        margin-top: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        form {
+            margin-left: 30px;
+            textarea {
+                height: 200px;
+                width: 150%;
+                display: flex;
+                margin-top: 40px;
+                background-image: linear-gradient(to right, #1c2841 , gray);
+                font-family: 'Titillium Web', sans-serif;
+                outline: none;
+                color: white;
+                margin-left: -65px;
+            }
+            textarea:focus {
+                outline: none;
+            }
+            .fields {
+                display: flex;
+                height: 30px;
+                gap: 5px;
+                flex-wrap: wrap;
+                padding: 5px;
+                input {
+                    background-color: #1c2841;
+                    border-width: 0 0 2px;
+                    border-color: white;
+                    color: white;
+                }
+                input:focus {
+                    outline: none !important;
+                }
+            }
+            button {
+                margin-top: 20px;
+                border: solid #091020 1px;
+                border-radius: 10px;
+                padding: 5px;
+                margin-right: 20px;
+            }
+            button:hover {
+                cursor: pointer;
+                animation: effect 0.4s;
+            }
         }
     }
 }
