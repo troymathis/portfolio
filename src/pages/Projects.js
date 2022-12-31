@@ -177,14 +177,6 @@ const Projects = () => {
           <div className="plinks-cont">
             <h3>Go to...</h3>
             <a
-              href="https://comm-w-r.herokuapp.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="plinks"
-            >
-              Site
-            </a>
-            <a
               href="https://github.com/troymathis/comm-wr"
               target="_blank"
               rel="noopener noreferrer"
