@@ -9,11 +9,12 @@ const Projects = () => {
         <div className="project">
           <h3 className="p-name">ATMOS</h3>
           <p className="p-desc">
-            With a team of likeminded engineers and UX/UI Designers, tracking air-quality in any notable city in the US, ATMOS is a AQI
-            (air quality index) tracker that provides the user with the current
-            index using IQAir's API and tips/reccomendations on sustainability.
-            Fully functional caching back-end along with a user-friendly,
-            responsive front-end.
+            With a team of likeminded engineers and UX/UI Designers, tracking
+            air-quality in any notable city in the US, ATMOS is a AQI (air
+            quality index) tracker that provides the user with the current index
+            using IQAir's API and tips/reccomendations on sustainability. Fully
+            functional caching back-end along with a user-friendly, responsive
+            front-end.
           </p>
           <div className="p-tech">
             <img src="https://logos-download.com/wp-content/uploads/2016/09/React_logo_wordmark.png" />
@@ -43,80 +44,6 @@ const Projects = () => {
           </div>
           <div className="p-mac">
             <img src="https://i.imgur.com/7fl1AoK.png" />
-          </div>
-        </div>
-        <div className="project">
-          <h3 className="p-name">Meleauxdy</h3>
-          <p className="p-desc">
-            A music search engine that can provide information on any artist by
-            pulling their discography and listing the number of tracks along
-            with the release date. Instantly find any artist within the iTunes
-            library based off their name/primary genre.
-          </p>
-          <div className="p-tech">
-            <img src="https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/JQuery_logo-512.png" />
-            <img src="https://i0.wp.com/blog.canadianwebhosting.com/wp-content/uploads/2018/04/javascript-logo.png?ssl=1" />
-            <img src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-css-logo-png-transparent-svg-vector-bie-supply-9.png" />
-            <img src="https://i.imgur.com/bmg5bBz.png" />
-          </div>
-          <div className="plinks-cont">
-            <h3 id="goto">Go to...</h3>
-            <a
-              href="https://meleauxdy.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="plinks"
-            >
-              Site
-            </a>
-            <a
-              href="https://github.com/troymathis/meleauxdy"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src="https://i.imgur.com/MM95rZT.png" className="imgs" />
-            </a>
-          </div>
-          <div className="p-mac">
-            <img src="https://i.imgur.com/6HlNzru.png" />
-          </div>
-        </div>
-        <div className="project">
-          <h3 className="p-name">Fantasy Silk</h3>
-          <p className="p-desc">
-            A full CRUD application, user guided hub for everything fantasy
-            football with player and team creation and updating. Form the
-            ultimate team for the upcoming season!
-          </p>
-          <div className="p-tech">
-            <img src="https://www.seekpng.com/png/full/383-3838960_mongodb-png.png" />
-            <img src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-css-logo-png-transparent-svg-vector-bie-supply-9.png" />
-            <img src="https://i.imgur.com/BiktJom.png" />
-            <img src="https://i0.wp.com/blog.canadianwebhosting.com/wp-content/uploads/2018/04/javascript-logo.png?ssl=1" />
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1280px-Node.js_logo.svg.png" />
-            <img src="https://i.imgur.com/d1JG34o.png" />
-            <img src="https://i.imgur.com/bmg5bBz.png" />
-          </div>
-          <div className="plinks-cont">
-            <h3>Go to...</h3>
-            <a
-              href="https://fantasy-silk.herokuapp.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="plinks"
-            >
-              Site
-            </a>
-            <a
-              href="https://github.com/troymathis/FantasySilk"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src="https://i.imgur.com/MM95rZT.png" className="imgs" />
-            </a>
-          </div>
-          <div className="p-mac">
-            <img src="https://i.imgur.com/53DLSop.png" />
           </div>
         </div>
         <div className="project">
@@ -183,9 +110,91 @@ const Projects = () => {
             >
               <img src="https://i.imgur.com/MM95rZT.png" className="imgs" />
             </a>
+            <a
+              href="http://comm-w-r.herokuapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="plinks"
+            >
+              Site
+            </a>
           </div>
           <div className="p-mac">
             <img src="https://i.imgur.com/Lh7cuyr.png" />
+          </div>
+        </div>
+        <div className="project">
+          <h3 className="p-name">Fantasy Silk</h3>
+          <p className="p-desc">
+            A full CRUD application, user guided hub for everything fantasy
+            football with player and team creation and updating. Form the
+            ultimate team for the upcoming season!
+          </p>
+          <div className="p-tech">
+            <img src="https://www.seekpng.com/png/full/383-3838960_mongodb-png.png" />
+            <img src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-css-logo-png-transparent-svg-vector-bie-supply-9.png" />
+            <img src="https://i.imgur.com/BiktJom.png" />
+            <img src="https://i0.wp.com/blog.canadianwebhosting.com/wp-content/uploads/2018/04/javascript-logo.png?ssl=1" />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1280px-Node.js_logo.svg.png" />
+            <img src="https://i.imgur.com/d1JG34o.png" />
+            <img src="https://i.imgur.com/bmg5bBz.png" />
+          </div>
+          <div className="plinks-cont">
+            <h3>Go to...</h3>
+            <a
+              href="https://fantasy-silk.herokuapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="plinks"
+            >
+              Site
+            </a>
+            <a
+              href="https://github.com/troymathis/FantasySilk"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="https://i.imgur.com/MM95rZT.png" className="imgs" />
+            </a>
+          </div>
+          <div className="p-mac">
+            <img src="https://i.imgur.com/53DLSop.png" />
+          </div>
+        </div>
+        <div className="project">
+          <h3 className="p-name">Meleauxdy</h3>
+          <p className="p-desc">
+            A music search engine that can provide information on any artist by
+            pulling their discography and listing the number of tracks along
+            with the release date. Instantly find any artist within the iTunes
+            library based off their name/primary genre.
+          </p>
+          <div className="p-tech">
+            <img src="https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/JQuery_logo-512.png" />
+            <img src="https://i0.wp.com/blog.canadianwebhosting.com/wp-content/uploads/2018/04/javascript-logo.png?ssl=1" />
+            <img src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-css-logo-png-transparent-svg-vector-bie-supply-9.png" />
+            <img src="https://i.imgur.com/bmg5bBz.png" />
+          </div>
+          <div className="plinks-cont">
+            <h3 id="goto">Go to...</h3>
+            <a
+              href="https://meleauxdy.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="plinks"
+            >
+              Site
+            </a>
+            <a
+              href="https://github.com/troymathis/meleauxdy"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="https://i.imgur.com/MM95rZT.png" className="imgs" />
+            </a>
+          </div>
+          <div className="p-mac">
+            <img src="https://i.imgur.com/6HlNzru.png" />
           </div>
         </div>
       </div>
