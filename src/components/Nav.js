@@ -13,7 +13,7 @@ const Header = () => {
             <Link to= 'lstack' className='links'
             spy={true}
             smooth={true}
-            offset={-120}
+            offset={-50}
             duration={500}>
                 <div>TECH STACK</div>
             </Link>
