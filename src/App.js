@@ -2,7 +2,7 @@ import Nav from "./components/Nav";
 import Main from "./components/Main";
 import "./styles.scss";
 import { Link } from "react-scroll";
-import myResume from "./resume/Resume-1-17.pdf"
+import myResume from "./resume/Resume-1-25.pdf"
 
 function App() {
   return (
