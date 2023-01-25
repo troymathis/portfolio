@@ -38,6 +38,24 @@
       }
 }
 
+@keyframes fallIn {
+    0% {
+        transform: translateY(-900px);
+      }
+      100% {
+        transform: translateY(0);
+      }
+}
+
+@keyframes riseIn {
+    0% {
+        transform: translateY(1200px);
+      }
+      100% {
+        transform: translateY(0);
+      }
+}
+
 html {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #1c2841 95%), linear-gradient(to bottom, rgba(0, 0, 0, 0) 60%, #1c2841),
     url('https://i.imgur.com/Kk5pDWj.jpg');
@@ -69,6 +87,7 @@ body {
         color: #F8F0E3;
         background-color: #1c2841;
         .navbar {
+            animation: fallIn 5s ;
             background: radial-gradient(circle at center, #2c3549, rgba(0,0,0,0));
             position: fixed;
             width: 55%;
@@ -86,6 +105,7 @@ body {
     position: fixed;
     bottom: 10px;
     margin-left: 20px;
+    animation: slideIn 6s ;
     img {
         width: 50px;
         margin-left: 30px;
@@ -117,6 +137,26 @@ body {
             margin-left: 30px;
             margin-bottom: 0px;
             opacity: 45%;
+        }
+    }
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    animation: riseIn 5s;
+    font-size: 9px;
+    width: 500px;
+    position: fixed;
+    bottom: 10px;
+    background: radial-gradient(farthest-side at 60% 55%, #2c3549, rgba(0,0,0,0));
+    p {
+        opacity: 75%;
+        width: 700px;
+        img {
+            margin-bottom: -2%;
+            padding: 1%;
+            width: 60px;
         }
     }
 }
@@ -159,15 +199,11 @@ body {
         animation: slideIn 2s;
     }
     .thanks {
-        .footer {
-            font-size: xxx-large;
-            color: rgb(71, 69, 83);
-            animation: slideIn 4s;
-            font-family: 'Raleway', sans-serif;
-        }
+        white-space: nowrap;
     }
 
 }
+
 
 .f-list {
     list-style: none;

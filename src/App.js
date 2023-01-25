@@ -30,6 +30,10 @@ function App() {
           <Nav />
         </div>
         <Main />
+        <div className="footer">
+        <p>Built in <img id="bd-react" src="https://logos-download.com/wp-content/uploads/2016/09/React_logo_wordmark.png" width={80}/>
+        and designed by Troy Mathis</p>
+        </div>
       </div>
     </div>
   );
