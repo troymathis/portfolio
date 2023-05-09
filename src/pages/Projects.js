@@ -162,31 +162,17 @@ const Projects = () => {
           </div>
         </div>
         <div className="project">
-          <h3 className="p-name">Meleauxdy</h3>
-          <p className="p-desc">
-            A music search engine that can provide information on any artist by
-            pulling their discography and listing the number of tracks along
-            with the release date. Instantly find any artist within the iTunes
-            library based off their name/primary genre.
-          </p>
+          <h3 className="p-name">Advent of Code 2022</h3>
+          <p className="p-desc">Created by Eric Wastl, is an Advent calendar of 
+          small programming puzzles for a variety of skill sets and skill levels 
+          that I have been solving in Python</p>
           <div className="p-tech">
-            <img src="https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/JQuery_logo-512.png" />
-            <img src="https://i0.wp.com/blog.canadianwebhosting.com/wp-content/uploads/2018/04/javascript-logo.png?ssl=1" />
-            <img src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-css-logo-png-transparent-svg-vector-bie-supply-9.png" />
-            <img src="https://i.imgur.com/bmg5bBz.png" />
+            
           </div>
-          <div className="plinks-cont">
-            <h3 id="goto">Go to...</h3>
+          <div className="plinks-cont" id='aoc-links'>
+            <h3>Go to...</h3>
             <a
-              href="https://meleauxdy.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="plinks"
-            >
-              Site
-            </a>
-            <a
-              href="https://github.com/troymathis/meleauxdy"
+              href="https://github.com/troymathis/advent-of-code"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -194,7 +180,7 @@ const Projects = () => {
             </a>
           </div>
           <div className="p-mac">
-            <img src="https://i.imgur.com/6HlNzru.png" />
+            <img src="https://i.imgur.com/CdmjumD.png" />
           </div>
         </div>
       </div>

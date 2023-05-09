@@ -476,6 +476,26 @@ body {
             width: 40px;
         }
     }
+    .footer {
+        display: flex;
+        justify-content: flex-end;
+        animation: riseIn 5s;
+        font-size: 9px;
+        width: 0;
+        position: fixed;
+        left: -100px;
+        bottom: 10px;
+        background: radial-gradient(farthest-side at 60% 55%, #2c3549, rgba(0,0,0,0));
+        p {
+            opacity: 75%;
+            width: 0;
+            img {
+                margin-bottom: -2%;
+                padding: 1%;
+                width: 0;
+            }
+        }
+    }
     .contact {
         text-align: center;
         padding-top: 100px;
@@ -538,6 +558,26 @@ body {
     }
     #name {
         margin-left: -10px;
+    }
+    .footer {
+        display: flex;
+        justify-content: flex-end;
+        animation: riseIn 5s;
+        font-size: 9px;
+        width: 0;
+        position: fixed;
+        left: -100px;
+        bottom: 10px;
+        background: radial-gradient(farthest-side at 60% 55%, #2c3549, rgba(0,0,0,0));
+        p {
+            opacity: 75%;
+            width: 0;
+            img {
+                margin-bottom: -2%;
+                padding: 1%;
+                width: 0;
+            }
+        }
     }
     html {
         background: linear-gradient(to bottom, #1c2841, rgba(0,0,0,0));
@@ -677,4 +717,8 @@ body {
             }
         }
     }
+}
+
+#aoc-links {
+    margin-top: 55px;
 }
